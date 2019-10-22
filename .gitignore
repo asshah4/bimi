@@ -15,5 +15,6 @@
 *$*.docx
 *.swp
 
-# Consider ignoring large files
+# Ignore large files due to github limits
 *.txt
+*_ECG.txt*
