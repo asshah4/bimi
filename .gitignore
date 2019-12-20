@@ -17,5 +17,8 @@
 
 # Ignore large files due to github limits
 *.txt
+<<<<<<< HEAD
 *_ECG.txt
 
+=======
+>>>>>>> 0d2ab69304665877c5d3484aceeb615d8a6d3c28
