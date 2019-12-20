@@ -17,4 +17,3 @@
 
 # Ignore large files due to github limits
 *.txt
-*_ECG.txt*
