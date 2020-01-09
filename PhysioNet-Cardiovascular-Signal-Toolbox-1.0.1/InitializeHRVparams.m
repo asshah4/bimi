@@ -69,9 +69,9 @@ end
 switch project_name
     % Define new project name and parameters
     case project_name                      % Update with your project name
-        HRVparams.Fs = 128;                % Specify sampling frequency
-        HRVparams.readdata = ['proc_data' filesep project_name]; % (Optional) Specify name for data input folder
-        HRVparams.writedata = ['proc_data' filesep project_name];% (Optional) Specify name for data output folder
+        HRVparams.Fs = 1000;                % Specify sampling frequency
+        HRVparams.readdata = ['data' filesep project_name]; % (Optional) Specify name for data input folder
+        HRVparams.writedata = ['data' filesep project_name];% (Optional) Specify name for data output folder
         HRVparams.datatype = '';           % (Optional) Specify Data type of input
         HRVparams.ext = '';                % (Optional) Specify file extension of input (e.g., 'mat','qrs')
 
@@ -291,7 +291,7 @@ HRVparams.DFA.maxBoxSize = [];      % Largest box width (default in DFA code: si
 HRVparams.DFA.midBoxSize = 16;      % Medium time scale box width (default in DFA code: 16)
 
 %% 16. Poincar� plot
-HRVparams.poincare.on = 0;     % Default: 1, Poincare Analysis 1=On or 0=Off
+HRVparams.poincare.on = 1;     % Default: 1, Poincare Analysis 1=On or 0=Off
 
 %% 17. Heart Rate Turbulence (HRT) - Settings
 HRVparams.HRT.on = 1;                        % Default: 1, HRT Analysis 1=On or 0=Off
