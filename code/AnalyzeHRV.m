@@ -23,7 +23,7 @@ numsub = length(patients);
 
 %% Iterative loop through all patients
 
-for i = 1:numsub
+parfor i = 1:numsub
 	
 	% Extrat raw ECG signal
 	ecg = ExtractECG(files(i).name);
