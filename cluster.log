@@ -1,0 +1,118 @@
+MATLAB is selecting SOFTWARE OPENGL rendering.
+Unrecognized MATLAB option "nodipslay".
+[?1h=
+                           < M A T L A B (R) >
+                 Copyright 1984-2017 The MathWorks, Inc.
+                  R2017a (9.2.0.556344) 64-bit (glnxa64)
+                              March 27, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or de
+>> 
+>> product information, visit www.mathworks.com.
+ 
+[H[JStarting parallel pool (parpool) using the 'local' profile ...
+[?1h=[Warning: The system time zone setting, 'US/Eastern', does not specify a
+single time zone unambiguously. It will be treated as 'America/New_York'. See
+the <a href="matlab:doc('datetime.TimeZone')">datetime.TimeZone property</a>
+for details about specifying time zones.] 
+[> In verifyTimeZone (line 23)
+  In datetime (line 515)
+  In parallel.internal.cluster.DefaultProperties.getNewJobPropStruct (line 16)
+  In parallel.internal.cluster.CJSSupport/buildJob (line 158)
+  In parallel.cluster.CJSCluster/buildCommunicatingJob (line 465)
+  In parallel.Cluster/createCommunicatingJob (line 92)
+  In parallel.internal.pool.InteractiveClient>iCreateCommunicatingJob (line 715)
+  In parallel.internal.pool.InteractiveClient/start (line 325)
+  In parallel.Pool>iStartClient (line 593)
+  In parallel.Pool.hBuildPool (line 472)
+  In parallel.internal.pool.doParpool (line 18)
+  In parpool (line 89)
+  In parallel.internal.pool.PoolArrayManager.getOrAutoCreateWithCleanup (line 49)
+  In pctTryCreatePoolIfNecessary (line 23)
+  In distcomp.remoteparfor.tryRemoteParfor
+  In parallel_function (line 433)
+  In AnalyzeHRV (line 26)] 
+connected to 12 workers.
+New OUTPUT folder: "data/2005_v3_09141111_ECG"
+New OUTPUT folder: "data/2002_v3_09090904_ECG"
+New OUTPUT folder: "data/2003_v2a_06160851_ECG"
+New OUTPUT folder: "data/2007_v3_11160959_ECG"
+New OUTPUT folder: "data/2002_v1_04061010_ECG"
+New OUTPUT folder: "data/2008_v2_07060947_ECG"
+New OUTPUT folder: "data/2007_v2_07211003_ECG"
+New OUTPUT folder: "data/2006_v2_06290952_ECG"
+New OUTPUT folder: "data/2001_v2_05250917_ECG"
+New OUTPUT folder: "data/2007_v1_05190927_ECG"
+New OUTPUT folder: "data/2005_v1_04270947_ECG"
+New OUTPUT folder: "data/2008_v1_05120920_ECG"
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2005_v3_09141111_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2007_v3_11160959_ECG/Annotation 
+HRV Analysis completed for subject ID 2005_v3_09141111_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2002_v1_04061010_ECG/Annotation 
+New OUTPUT folder: "data/2005_v2_06230948_ECG"
+HRV Analysis completed for subject ID 2007_v3_11160959_ECG 
+New OUTPUT folder: "data/2008_v3_09020959_ECG"
+HRV Analysis completed for subject ID 2002_v1_04061010_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2002_v3_09090904_ECG/Annotation 
+New OUTPUT folder: "data/2001_v3_07201026_ECG"
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2006_v2_06290952_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2003_v2a_06160851_ECG/Annotation 
+HRV Analysis completed for subject ID 2003_v2a_06160851_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2007_v2_07211003_ECG/Annotation 
+New OUTPUT folder: "data/2003_v1_04140955_ECG"
+HRV Analysis completed for subject ID 2002_v3_09090904_ECG 
+HRV Analysis completed for subject ID 2006_v2_06290952_ECG 
+New OUTPUT folder: "data/2002_v2_06080859_ECG"
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2008_v2_07060947_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2001_v2_05250917_ECG/Annotation 
+New OUTPUT folder: "data/2006_v1_05040919_ECG"
+HRV Analysis completed for subject ID 2007_v2_07211003_ECG 
+New OUTPUT folder: "data/2009_v1_06090850_ECG"
+HRV Analysis completed for subject ID 2008_v2_07060947_ECG 
+New OUTPUT folder: "data/2009_v2_08041014_ECG"
+HRV Analysis completed for subject ID 2001_v2_05250917_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2007_v1_05190927_ECG/Annotation 
+New OUTPUT folder: "data/2001_v1_03300942_ECG"
+HRV Analysis completed for subject ID 2007_v1_05190927_ECG 
+New OUTPUT folder: "data/2006_v3_08240852_ECG"
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2005_v1_04270947_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2001_v3_07201026_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2008_v1_05120920_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2008_v3_09020959_ECG/Annotation 
+HRV Analysis completed for subject ID 2005_v1_04270947_ECG 
+HRV Analysis completed for subject ID 2008_v3_09020959_ECG 
+New OUTPUT folder: "data/2004_04201130_ECG"
+New OUTPUT folder: "data/2009_v3_10070833_ECG"
+HRV Analysis completed for subject ID 2001_v3_07201026_ECG 
+New OUTPUT folder: "data/2010_v1_06300858_ECG"
+HRV Analysis completed for subject ID 2008_v1_05120920_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2005_v2_06230948_ECG/Annotation 
+New OUTPUT folder: "data/2010_v2_08310948_ECG"
+HRV Analysis completed for subject ID 2005_v2_06230948_ECG 
+New OUTPUT folder: "data/2010_v3_12091011_ECG"
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2006_v3_08240852_ECG/Annotation 
+HRV Analysis completed for subject ID 2006_v3_08240852_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2009_v2_08041014_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2006_v1_05040919_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2003_v1_04140955_ECG/Annotation 
+HRV Analysis completed for subject ID 2009_v2_08041014_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2009_v3_10070833_ECG/Annotation 
+HRV Analysis completed for subject ID 2003_v1_04140955_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2002_v2_06080859_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2010_v3_12091011_ECG/Annotation 
+HRV Analysis completed for subject ID 2006_v1_05040919_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2009_v1_06090850_ECG/Annotation 
+HRV Analysis completed for subject ID 2009_v3_10070833_ECG 
+HRV Analysis completed for subject ID 2010_v3_12091011_ECG 
+HRV Analysis completed for subject ID 2002_v2_06080859_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2001_v1_03300942_ECG/Annotation 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2010_v2_08310948_ECG/Annotation 
+HRV Analysis completed for subject ID 2009_v1_06090850_ECG 
+HRV Analysis completed for subject ID 2010_v2_08310948_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2004_04201130_ECG/Annotation 
+HRV Analysis completed for subject ID 2001_v1_03300942_ECG 
+Creating a new folder: "Annotation", folder is located in /projects/neurocardiology/bimi//projects/neurocardiology/bimi/data/2010_v1_06300858_ECG/Annotation 
+HRV Analysis completed for subject ID 2004_04201130_ECG 
+HRV Analysis completed for subject ID 2010_v1_06300858_ECG 
+>> 
